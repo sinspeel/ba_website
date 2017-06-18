@@ -1,0 +1,11 @@
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\ba_website.Repository.dll.config
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\ba_website.Repository.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\ba_website.Repository.pdb
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\ba_website.model.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\EntityFramework.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\ba_website.model.pdb
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\EntityFramework.xml
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\obj\Release\ba_website.Repository.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.Repository\obj\Release\ba_website.Repository.pdb

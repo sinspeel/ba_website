@@ -1,0 +1,95 @@
+﻿@model ba_website.model.Events
+
+@{
+    ViewBag.Title = "Details";
+}
+<section class="header-color">
+    <div class="container">
+        <h2>Events</h2>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <h4 class="text-center">Event Details</h4>
+        <hr />
+        <div class="col-md-4"><h1></h1></div>
+        <div class="col-md-6">
+            <div>
+                
+                <dl class="dl-horizontal">
+                    <dt>
+                        Group Name
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Groups.GroupName)
+                    </dd>
+
+                    <dt>
+                        Musician
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Musicians.LastName)
+                    </dd>
+
+                    <dt>
+                        Event Name
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.EventName)
+                    </dd>
+
+                    <dt>
+                        Event Location
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.EventLocation)
+                    </dd>
+
+                    <dt>
+                        Start Date
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.EventStartDate)
+                    </dd>
+
+                    <dt>
+                        End Date
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.EventEndDate)
+                    </dd>
+
+                    <dt>
+                        Price
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NormalPrice)
+                    </dd>
+
+                    <dt>
+                        VIP Price
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.VIPPrice)
+                    </dd>
+
+                </dl>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    
+    <p class="text-center">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+</div>

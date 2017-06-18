@@ -1,0 +1,15 @@
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\ba_website.database.dll.config
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\ba_website.database.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\ba_website.database.pdb
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\ba_website.model.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\EntityFramework.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\ba_website.model.pdb
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\EntityFramework.xml
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\obj\Release\ba_website.database.csprojResolveAssemblyReference.cache
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\obj\Release\ba_website.database.Migrations.initialmigration.resources
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\obj\Release\ba_website.database.Migrations.eventadded.resources
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\obj\Release\ba_website.database.csproj.GenerateResource.Cache
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\obj\Release\ba_website.database.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.database\obj\Release\ba_website.database.pdb

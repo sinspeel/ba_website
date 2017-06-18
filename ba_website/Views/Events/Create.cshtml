@@ -1,0 +1,171 @@
+﻿@model ba_website.model.Events
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<section class="header-color">
+    <div class="container">
+        <h2>Events</h2>
+    </div>
+</section>
+
+
+    <div class="container">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4 class="text-center">Create Event</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                
+                <label class="control-label col-md-2">Event Name</label>
+                @*@Html.LabelFor(model => model.EventName, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.EventName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EventName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.EventLocation, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">Event Location</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.EventLocation, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EventLocation, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                    @Html.LabelFor(model => model.EventStartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.EventStartDate, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.EventStartDate, "", new { @class = "text-danger" })
+                    </div>
+                </div>*@
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.EventStartDate, htmlAttributes: new { @class = "control-label col-md-2" })*@     
+                <label class="control-label col-md-2">Start Date and Time</label>           
+                <div class='col-md-4'> 
+                    
+                        <div class='input-group date' id='datetimepicker6'>
+                           @Html.EditorFor(model => model.EventStartDate, new { htmlAttributes = new { @class = "form-control" } })
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>                           
+                        </div>
+                        @Html.ValidationMessageFor(model => model.EventStartDate, "", new { @class = "text-danger" })
+                   
+                </div>
+                @*@Html.LabelFor(model => model.EventEndDate, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">End Date and Time</label>
+                <div class='col-md-4'>
+                    
+                        <div class='input-group date' id='datetimepicker7'>
+                            @Html.EditorFor(model => model.EventEndDate, new { htmlAttributes = new { @class = "form-control" } })
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>                           
+                        </div>
+                        @Html.ValidationMessageFor(model => model.EventEndDate, "", new { @class = "text-danger" })
+                    
+                </div>
+                @*<div class="col-md-8">
+                        <div class="form-group">
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        @Html.EditorFor(model => model.EventEndDate, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.EventEndDate, "", new { @class = "text-danger" })
+                    </div>*@
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.NormalPrice, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">Normal Price</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NormalPrice, new { htmlAttributes = new { @class = "form-control" } })
+                    @*@Html.ValidationMessageFor(model => model.NormalPrice, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.VIPPrice, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">VIP Price</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.VIPPrice, new { htmlAttributes = new { @class = "form-control" } })
+                    @*@Html.ValidationMessageFor(model => model.VIPPrice, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.MusicianId, "MusicianId", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">Musician</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("MusicianId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MusicianId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.GroupId, "GroupId", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">Group</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("GroupId", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.GroupId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+
+
+    <div class="text-center text-capitalize">
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    
+<script src="~/Scripts/moment.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.min.js"></script>
+<link href="~/Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker6').datetimepicker();
+        $('#datetimepicker7').datetimepicker({
+            useCurrent: false //Important! See issue #1075
+        });
+        $("#datetimepicker6").on("dp.change", function (e) {
+            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+        });
+        $("#datetimepicker7").on("dp.change", function (e) {
+            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+        });
+    });
+</script>
+
+
+   
+}

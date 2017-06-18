@@ -1,0 +1,10 @@
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\ba_website.model.dll.config
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\ba_website.model.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\ba_website.model.pdb
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\EntityFramework.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\EntityFramework.xml
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\obj\Debug\ba_website.model.csprojResolveAssemblyReference.cache
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\obj\Debug\ba_website.model.dll
+C:\Users\xzepe\documents\visual studio 2015\Projects\ba_website\ba_website.model\obj\Debug\ba_website.model.pdb
