@@ -17,25 +17,30 @@ namespace ba_website.Controllers
         {
             using (Repository<Events> repo = new Repository<Events>(context))
             {
-                List<Events> listOfEvents = repo.GetAll().OrderByDescending(o => o.Id).Take(10).ToList();
-                HomeViewModel model = new HomeViewModel
+                using (Repository<Musicians> artistRepo = new Repository<Musicians>(context))
                 {
-                    Events = listOfEvents
-                };
-                return View(model);
+                    List<Events> listOfEvents = repo.GetAll().OrderByDescending(o => o.Id).Take(10).ToList();
+                    List<Musicians> listOfArtists = artistRepo.GetAll().OrderByDescending(o => o.Id).Take(10).ToList();
+                    HomeViewModel model = new HomeViewModel
+                    {
+                        Events = listOfEvents,
+                        Musicians = listOfArtists
+                    };
+                    return View(model);
+                }
             }     
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Who are we?";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "How can we help?";
 
             return View();
         }

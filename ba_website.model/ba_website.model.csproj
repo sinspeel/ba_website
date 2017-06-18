@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Albums.cs" />
     <Compile Include="Events.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="Genres.cs" />
     <Compile Include="Group.cs" />
     <Compile Include="Group_Members.cs" />

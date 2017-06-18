@@ -9,5 +9,6 @@ namespace ba_website.Models
     public class HomeViewModel
     {
         public List<Events> Events { get; set; }
+        public List<Musicians> Musicians { get; set; }
     }
 }

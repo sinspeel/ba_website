@@ -181,6 +181,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\audio-1851517.jpg" />
     <Content Include="img\cover5.png" />
+    <Content Include="img\cover6.png" />
+    <Content Include="img\event-pa.png" />
+    <Content Include="img\favicon.png" />
     <Content Include="img\header-ba-01.png" />
     <Content Include="img\header-ba-03.png" />
     <Content Include="img\header-ba-3.jpg" />
@@ -196,6 +199,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="img\logo1.png" />
+    <Content Include="img\logo2.png" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
